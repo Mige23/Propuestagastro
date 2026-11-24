@@ -184,7 +184,7 @@ img, svg { display: block; max-width: 100%; }
 .feature-copy > p:not(.eyebrow) { max-width: 620px; margin: 20px 0; color: var(--muted); line-height: 1.75; }
 .check-list { display: grid; gap: 11px; margin: 25px 0; padding: 0; list-style: none; }
 .check-list li { position: relative; padding-left: 28px; color: #34415a; font-size: 14px; line-height: 1.55; }
-.check-list li::before { content: "✓"; position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 19px; height: 19px; border-radius: 50%; color: white; background: var(--success); font-size: 10px; font-weight: 900; }
+.check-list li::before { content: "âœ“"; position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 19px; height: 19px; border-radius: 50%; color: white; background: var(--success); font-size: 10px; font-weight: 900; }
 .condition { display: inline-flex; padding: 8px 11px; border-radius: 9px; color: #53627a; background: var(--blue-soft); font-size: 10px; font-weight: 750; }
 .mock-window { overflow: hidden; border: 1px solid rgba(255,255,255,.12); border-radius: 22px; color: white; background: var(--ink); box-shadow: 0 30px 65px rgba(8,20,45,.22); }
 .mock-bar { height: 46px; display: flex; align-items: center; gap: 6px; padding: 0 15px; border-bottom: 1px solid rgba(255,255,255,.09); }
@@ -269,7 +269,7 @@ img, svg { display: block; max-width: 100%; }
 .offer-grid { display: grid; grid-template-columns: 1fr .75fr; align-items: center; gap: clamp(60px,9vw,125px); }
 .offer-points { display: grid; gap: 13px; margin: 32px 0 0; padding: 0; list-style: none; }
 .offer-points li { position: relative; padding-left: 28px; color: #b5c0d3; font-size: 14px; }
-.offer-points li::before { content: "✓"; position: absolute; left: 0; color: var(--orange); font-weight: 900; }
+.offer-points li::before { content: "âœ“"; position: absolute; left: 0; color: var(--orange); font-weight: 900; }
 .price-card { position: relative; padding: 38px; border: 1px solid rgba(255,255,255,.16); border-radius: 28px; color: var(--ink); background: white; box-shadow: 0 40px 90px rgba(0,0,0,.25); transform-style: preserve-3d; }
 .price-badge { display: inline-flex; padding: 7px 10px; border-radius: 999px; color: white; background: var(--orange); font-size: 9px; font-weight: 900; letter-spacing: .12em; }
 .price { display: flex; align-items: end; gap: 5px; margin: 24px 0 8px; }
@@ -279,7 +279,7 @@ img, svg { display: block; max-width: 100%; }
 .price-card > p { color: var(--muted); font-size: 12px; line-height: 1.6; }
 .price-card > ul { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 25px 0; padding: 24px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); list-style: none; }
 .price-card > ul li { position: relative; padding-left: 18px; font-size: 11px; font-weight: 700; }
-.price-card > ul li::before { content: "✓"; position: absolute; left: 0; color: var(--success); font-weight: 900; }
+.price-card > ul li::before { content: "âœ“"; position: absolute; left: 0; color: var(--success); font-weight: 900; }
 .price-card .button { width: 100%; }
 .price-note { display: block; margin-top: 15px; color: var(--muted); font-size: 9px; line-height: 1.6; text-align: center; }
 .contact { position: relative; overflow: hidden; text-align: center; background: white; }
@@ -288,6 +288,7 @@ img, svg { display: block; max-width: 100%; }
 .contact-inner > p { margin-inline: auto; }
 .contact-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 35px; }
 footer { display: flex; align-items: center; justify-content: space-between; gap: 25px; padding: 30px max(24px,calc((100vw - var(--max))/2)); color: white; background: #050e21; }
+footer .footer-brand img.brand-logo { object-fit: cover; border: 1px solid rgba(255,255,255,.18); background: transparent; box-shadow: 0 8px 22px rgba(0,0,0,.28); }
 footer .brand-sub { color: #71809a; }
 footer p, footer > a:last-child { color: #8492a9; font-size: 11px; }
 
@@ -371,3 +372,4 @@ footer p, footer > a:last-child { color: #8492a9; font-size: 11px; }
   .hero-console, .feature-showcase, .cap-card, .price-card { box-shadow: none; }
   .button { border: 1px solid #aaa; }
 }
+
